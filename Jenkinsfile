@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage('Hello Workd') {
       steps {
-        sh 'java -version'
+        sh 'go version'
       }
     }
   }
