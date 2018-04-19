@@ -3,7 +3,7 @@ pipeline {
     label 'jdk9'
   }
   stages {
-    stage('Hello Workd') {
+    stage('Hello World') {
       steps {
         sh 'go version'
       }
